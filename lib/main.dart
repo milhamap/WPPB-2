@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       for (int i = 0; i <= _counter; i++) {
         if (i % 2 != 0) {
-          _text != '${i}, ';
+          _text += '${i}, ';
         }
       }
     });
